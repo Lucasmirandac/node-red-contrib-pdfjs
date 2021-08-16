@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Node-RED node to extract pdf data using pdfjs",
   "dependencies": {
-    "pdfjs-dist": "^2.2.228"
+    "pdfjs-dist": "2.9.359"
   },
   "repository": {
     "type": "git",
@@ -11,7 +11,10 @@
   },
   "author": "Jack Menjivar",
   "license": "ISC",
-  "keywords": ["node-red", "pdf"],
+  "keywords": [
+    "node-red",
+    "pdf"
+  ],
   "node-red": {
     "nodes": {
       "pdf": "pdf.js"
